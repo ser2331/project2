@@ -1,0 +1,8 @@
+.item-list{
+    width: 65%;
+    margin-top: 25px;
+    background-color: #3a3a3a;
+    border:4px double #00bc8c;
+
+    border-radius: 15px;
+}
