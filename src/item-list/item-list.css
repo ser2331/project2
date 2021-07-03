@@ -1,8 +1,13 @@
-.item-list{
+.item-list {
     width: 65%;
     margin-top: 25px;
     background-color: #3a3a3a;
-    border:4px double #00bc8c;
-
+    border: 4px double #00bc8c;
     border-radius: 15px;
+}
+.item-list .item-ul{
+    margin-top: 10px;
+}
+.item-list hr{
+    color: #00bc8c;
 }

@@ -15,3 +15,15 @@
     height: 150px;
     border-radius: 15px;
 }
+.random-planets ul{
+    display:flex;
+    flex-direction: column;
+}
+.random-planets .term{
+    width: 110px;
+    margin-right: 20px;
+}
+.random-planets .term-area li{
+    display: flex;
+    flex-direction: row;
+}
