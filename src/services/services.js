@@ -1,4 +1,3 @@
-import React from "react";
 import {Component} from "react";
 
 export default class SwapiService extends Component {
@@ -31,6 +30,7 @@ export default class SwapiService extends Component {
 	async getPlanet(id) {
 		const planet = await this.getResource(`/planets/${id}/`)
 		return this._transformPlanet(planet)
+
 	}
 
 	async getAllStarships() {
@@ -54,7 +54,7 @@ export default class SwapiService extends Component {
 			name: planet.name,
 			population: planet.population,
 			rotationPeriod: planet.rotation_period,
-			diameter: planet.diameter
+			diameter: planet.diameter,
 		}
 	}
 
