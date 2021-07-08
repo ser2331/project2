@@ -1,9 +1,8 @@
 .person-details {
-    width: 65%;
-    height: 200px;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-top: 30px;
     background-color: #3a3a3a;
@@ -12,14 +11,15 @@
 }
 
 .person-details img {
-    width: 150px;
-    height: 150px;
+width: 200px;
+    height: 275px;
     border-radius: 15px;
 }
 
 .person-details ul {
     display: flex;
     flex-direction: column;
+    font-size: 25px;
 }
 
 .person-details .property-area {
@@ -30,6 +30,7 @@
 li {
     display: flex;
     flex-direction: row;
+    margin-top: 15px;
 }
 
 .person-details .property {
