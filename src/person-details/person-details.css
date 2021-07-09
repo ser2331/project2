@@ -19,7 +19,6 @@ width: 200px;
 .person-details ul {
     display: flex;
     flex-direction: column;
-    font-size: 25px;
 }
 
 .person-details .property-area {
@@ -36,4 +35,7 @@ li {
 .person-details .property {
     width: 110px;
     margin-right: 20px;
+}
+.property-aria hr {
+    color: #00bc8c;
 }

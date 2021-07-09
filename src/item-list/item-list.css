@@ -1,15 +1,25 @@
 .item-list {
     width: 65%;
-    margin-top: 25px;
+    margin-top: 30px;
     background-color: #3a3a3a;
     border: 4px double #00bc8c;
     border-radius: 15px;
     margin-right: 15px;
     cursor: pointer;
 }
-.item-list .item-ul{
+
+.item-list .item-ul {
     margin-top: 10px;
 }
-.item-list hr{
+
+.item-list hr {
+    color: #00bc8c;
+}
+
+.item-ul .item-li:hover {
+    background: gray;
+}
+
+.item-ul .item-li:active {
     color: #00bc8c;
 }

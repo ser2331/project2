@@ -8,15 +8,17 @@ import Error from "../error-indicator";
 export default class RandomPlanets extends Component {
 	SwapiService = new SwapiService()
 	state = {
-		planet: {},
+		planet: null,
 		loading: true,
 		error: false,
 	}
 
 	componentDidMount() {
 		this.updatePlanet()
-		this.interval= setInterval(this.updatePlanet, 3500)
-		// clearInterval(this.interval)
+		this.interval= setInterval(this.updatePlanet, 10500)
+	}
+	componentWillUnmount() {
+		clearInterval(this.interval)
 	}
 
 	onPlanetLoaded = (planet) => {
