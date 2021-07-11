@@ -1,11 +1,10 @@
 import React, {Component} from 'react'
-import './error-button.css'
+import './error-button.scss'
 export default class ErrorButton extends Component{
 	state={
 		renderError:false
 	}
 	render() {
-		console.log('render')
 		if(this.state.renderError){
 			this.foo.bar=0
 		}

@@ -1,0 +1,11 @@
+.item-person {
+  width: 100%;
+}
+.item-person .choice-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=error-boundary.css.map */
