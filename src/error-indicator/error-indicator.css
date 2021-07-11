@@ -1,10 +1,12 @@
-.error-area{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    margin: 25px;
+.error-area {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 25px;
 }
-.error-area img{
-    border-radius: 25px
+.error-area img {
+  border-radius: 25px;
 }
+
+/*# sourceMappingURL=error-indicator.css.map */

@@ -1,5 +1,5 @@
 import React from 'react'
-import './error-indicator.css'
+import './error-indicator.scss'
 import Chj from './7Chj.gif'
 const Error = () => {
 	return (

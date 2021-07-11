@@ -11,9 +11,8 @@
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
-}
-.error-button :hover {
-  background-color: #ff0000;
-}
 
-/*# sourceMappingURL=error-button.css.map */
+  :hover {
+    background-color: #ff0000
+  }
+}
